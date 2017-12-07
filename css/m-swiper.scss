@@ -1,0 +1,26 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.m-mark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  //  background: #000;
+//  opacity: 0.3;
+//  filter: opacity(30);
+background: rgba(0,0,0,0.3);
+display: none;
+}
+.swiper-containerm{
+    width: 100%;
+    margin-top: 0.5rem;
+    .swiper-slide{
+        text-align: center;
+        img{
+            width: 6rem;
+        }
+    }
+}

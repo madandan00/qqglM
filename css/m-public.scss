@@ -1,0 +1,39 @@
+body,html{
+    background: #fff;
+}
+
+.m-content{
+    padding: 0 0.32rem;
+    font-size: 12px;
+}
+.m-tit {
+    .m-tit-box {
+        width: 3.7rem;
+        margin: 0.5rem auto;
+        text-align: center;
+        .line-left {
+            width: 0.7rem;
+            height: 0.35rem;
+            border-bottom: 1px solid #303030;
+            float: left;
+        }
+        .line-right {
+            float: right;
+            width: 0.7rem;
+            height: 0.35rem;
+            border-bottom: 1px solid #303030;
+        }
+        span {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 1.82rem;
+            height: 0.75rem;
+            font-size: 0.3rem;
+            background: url("../img/m-tit.png") no-repeat center;
+            background-size: cover;
+            color: #333;
+            line-height: 0.75rem;
+        }
+    }
+}

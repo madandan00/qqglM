@@ -1,0 +1,108 @@
+.m-content2 {
+  padding: 0 0.46rem; }
+
+.m-hot-topic .m-hot-topic-sel {
+  width: 100%;
+  text-align: center;
+  font-size: 12px; }
+  .m-hot-topic .m-hot-topic-sel span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 1.45rem;
+    line-height: 0.72rem;
+    font-size: 0.32rem;
+    color: #999; }
+  .m-hot-topic .m-hot-topic-sel .active {
+    color: #333;
+    border-bottom: 3px solid #333; }
+
+.m-tit .m-tit-box {
+  width: 3.7rem;
+  margin: 0.5rem auto;
+  text-align: center; }
+  .m-tit .m-tit-box .line-left {
+    width: 0.7rem;
+    height: 0.35rem;
+    border-bottom: 1px solid #303030;
+    float: left; }
+  .m-tit .m-tit-box .line-right {
+    float: right;
+    width: 0.7rem;
+    height: 0.35rem;
+    border-bottom: 1px solid #303030; }
+  .m-tit .m-tit-box span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 1.82rem;
+    height: 0.75rem;
+    font-size: 0.3rem;
+    background: url("../img/m-tit.png") no-repeat center;
+    background-size: cover;
+    color: #333;
+    line-height: 0.75rem; }
+
+.mul-cooking-item {
+  margin-bottom: 0.5rem; }
+  .mul-cooking-item .cooking-tit {
+    font-size: 0.32rem;
+    color: #333;
+    line-height: 0.54rem; }
+  .mul-cooking-item .cooking-intro {
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.36rem;
+    margin-top: 0.03rem; }
+  .mul-cooking-item .cooking-img {
+    margin-top: 0.35rem; }
+    .mul-cooking-item .cooking-img img {
+      width: 2.1rem;
+      height: 2.1rem;
+      float: left;
+      margin-left: 0.09rem; }
+  .mul-cooking-item .article-info {
+    font-size: 0.22rem;
+    color: #666;
+    line-height: 0.46rem;
+    margin-top: 0.2rem; }
+    .mul-cooking-item .article-info .liu,
+    .mul-cooking-item .article-info .ping {
+      float: right; }
+      .mul-cooking-item .article-info .liu i,
+      .mul-cooking-item .article-info .ping i {
+        margin: 0 0.1rem;
+        font-size: 0.32rem; }
+
+.one-cooking-item {
+  margin-bottom: 0.5rem; }
+  .one-cooking-item .item .item-left {
+    width: 3.7rem;
+    float: left; }
+  .one-cooking-item .item .item-right {
+    width: 2.1rem;
+    float: right; }
+    .one-cooking-item .item .item-right img {
+      width: 2.1rem;
+      height: 2.1rem; }
+  .one-cooking-item .item .cooking-tit {
+    font-size: 0.32rem;
+    color: #333;
+    line-height: 0.54rem; }
+  .one-cooking-item .item .cooking-intro {
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.36rem;
+    margin-top: 0.03rem; }
+  .one-cooking-item .article-info {
+    font-size: 0.22rem;
+    color: #666;
+    line-height: 0.46rem;
+    margin-top: 0.2rem; }
+    .one-cooking-item .article-info .liu,
+    .one-cooking-item .article-info .ping {
+      float: right; }
+      .one-cooking-item .article-info .liu i,
+      .one-cooking-item .article-info .ping i {
+        margin: 0 0.1rem;
+        font-size: 0.32rem; }

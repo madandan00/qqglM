@@ -1,0 +1,250 @@
+.m-hot-topic {
+    .m-hot-topic-sel {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        span {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 1.45rem;
+            line-height: 0.72rem;
+            font-size: 0.32rem;
+            color: #999;
+        }
+        .active {
+            color: #333;
+            border-bottom: 3px solid #333;
+        }
+    }
+}
+//.m-tit {
+//  .m-tit-box {
+//      width: 3.7rem;
+//      margin: 0.5rem auto;
+//      text-align: center;
+//      .line-left {
+//          width: 0.7rem;
+//          height: 0.35rem;
+//          border-bottom: 1px solid #303030;
+//          float: left;
+//      }
+//      .line-right {
+//          float: right;
+//          width: 0.7rem;
+//          height: 0.35rem;
+//          border-bottom: 1px solid #303030;
+//      }
+//      span {
+//          display: inline-block;
+//          *display: inline;
+//          *zoom: 1;
+//          width: 1.82rem;
+//          height: 0.75rem;
+//          font-size: 0.3rem;
+//          background: url("../img/m-tit.png") no-repeat center;
+//          background-size: cover;
+//          color: #333;
+//          line-height: 0.75rem;
+//      }
+//  }
+//}
+.bigbox {
+    .item {
+        height: 1.4rem;
+        margin-bottom: 0.2rem;
+        .border {
+            height: 1.4rem;
+            width: 6.2rem;
+        }
+        .item-img {
+            width: 1.2rem;
+            float: left;
+            img {
+                width: 1.2rem;
+                height: 1.2rem;
+            }
+        }
+        .item-right {
+            width: 4.6rem;
+            float: right;
+            .txt-tit {
+                font-size: 0.3rem;
+                color: #333;
+                line-height: 0.5rem;
+            }
+            .txt-intro {
+                font-size: 0.24rem;
+                color: #888;
+                line-height: 0.44rem;
+            }
+        }
+    }
+}
+.m-more {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #a1a1a1;
+    line-height: 0.86rem;
+    i {
+        font-size: 0.2rem;
+        margin: 0 0.1rem;
+    }
+}
+.swiper-pagination {
+    // background: red;
+    margin: 0;
+    padding: 0;
+    bottom: 0!important;
+    width: 100%;
+    text-align: center;
+    // height: 1rem;
+    span {
+        margin: 0 0.12rem;
+    }
+}
+.swiper-container1 {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-wrapper {
+    //  width: 100%;
+    //  overflow: hidden;
+}
+.swiper-slide {
+    //  text-align: center;
+    //  display: -webkit-box;
+    //  display: -ms-flexbox;
+    //  display: -webkit-flex;
+    //  display: flex;
+    //  -webkit-box-pack: center;
+    //  -ms-flex-pack: center;
+    //  -webkit-justify-content: center;
+    //  justify-content: center;
+    //  -webkit-box-align: center;
+    //  -ms-flex-align: center;
+    //  -webkit-align-items: center;
+    //  align-items: center;
+    //height: 3.7rem;
+    padding-bottom: 0.3rem;
+    .swiper-slide-box {
+        width: 3.32rem;
+        height: 3.4rem;
+        box-shadow: 0.01rem 0.01rem 0.05rem 0.01rem #ccc;
+        -webkit-box-shadow: 0.01rem 0.01rem 0.05rem 0.01rem #ccc;
+        -moz-box-shadow: 0.01rem 0.01rem 0.05rem 0.01rem #ccc;
+        -ms-box-shadow: 0.01rem 0.01rem 0.05rem 0.01rem #ccc;
+        -o-box-shadow: 0.01rem 0.01rem 0.05rem 0.01rem #ccc;
+        margin: 0 auto;
+    }
+    .experts-img {
+        width: 3.32rem;
+        height: 2.07rem;
+        margin-bottom: 0.2rem;
+        position: relative;
+        margin: 0 auto;
+        img {
+            width: 3.32rem;
+            height: 2.07rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 0.1rem;
+            -webkit-box-sizing: 0.1rem;
+            -moz-border-radius: 0.1rem;
+            -o-box-sizing: 0.1rem;
+            -ms-border-radius: 0.1rem;
+        }
+        .expert-tit {
+            position: absolute;
+            width: 2.3rem;
+            font-size: 0.28rem;
+            color: #fff;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            left: 0.5rem;
+            top: 0.5rem;
+            line-height: 0.48rem;
+        }
+        .author-img {
+            width: 0.75rem;
+            height: 0.75rem;
+            position: absolute;
+            right: 0.26rem;
+            bottom: - 0.35rem;
+            img {
+                width: 0.75rem;
+                height: 0.75rem;
+                border-radius: 100%;
+                -webkit-box-sizing: 100%;
+                -moz-border-radius: 100%;
+                -o-box-sizing: 100%;
+                -ms-border-radius: 100%;
+            }
+        }
+    }
+    .article-info {
+        margin: 0 auto;
+        .author {
+            font-size: 0.24rem;
+            color: #333;
+            margin-left: 0.3rem;
+            line-height: 0.5rem;
+        }
+        .article-hot {
+            margin-left: 0.3rem;
+            font-size: 0.22rem;
+            color: #666;
+            i {
+                color: #333;
+                line-height: 0.5rem;
+            }
+        }
+    }
+}
+.problem-item {
+    .problem-ask {
+        .problem-left {
+            float: left;
+            i {
+                font-size: 0.32rem;
+                color: #00c6ff;
+                margin-right: 0.2rem;
+                line-height: 0.36rem;
+            }
+        }
+        p {
+            width: 6rem;
+            font-size: 0.3rem;
+            color: #333;
+            line-height: 0.36rem;
+            margin-bottom: 0.25rem;
+            float: left;
+        }
+    }
+    .problem-answer {
+        .problem-left {
+            float: left;
+            i {
+                font-size: 0.32rem;
+                color: #03de36;
+                margin-right: 0.2rem;
+                line-height:0.36rem ;
+            }
+        }
+        p {
+            width: 6rem;
+            font-size: 0.24rem;
+            color: #666;
+            line-height: 0.36rem;
+            margin-bottom: 0.25rem;
+            float: left;
+           
+        }
+    }
+}

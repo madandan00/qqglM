@@ -1,0 +1,61 @@
+.m-main {
+  font-size: 12px; }
+
+.top-tit {
+  text-align: center;
+  font-size: 12px;
+  height: 1rem;
+  position: relative;
+  background: #fff; }
+  .top-tit i {
+    font-size: 0.38rem;
+    color: #333;
+    line-height: 1rem;
+    position: absolute;
+    left: 0.32rem;
+    top: 0; }
+  .top-tit span {
+    font-size: 0.36rem;
+    line-height: 1rem; }
+
+.article {
+  padding: 0.4rem 0.46rem;
+  background: #fff; }
+  .article .article-tit {
+    font-size: 0.34rem;
+    color: #333;
+    line-height: 0.5rem;
+    margin-bottom: 0.4rem; }
+  .article .article-content {
+    font-size: 0.3rem;
+    color: #666;
+    line-height: 0.48rem; }
+
+.m-recomment {
+  background: #fff;
+  margin-top: 0.1rem;
+  padding: 0.5rem 0.32rem 0; }
+  .m-recomment .recomment-tit {
+    margin-bottom: 0.15rem; }
+    .m-recomment .recomment-tit i {
+      color: #ff712b; }
+    .m-recomment .recomment-tit span {
+      color: #333;
+      font-size: 0.32rem;
+      line-height: 0.4rem; }
+  .m-recomment ul {
+    padding: 0 0.16rem; }
+    .m-recomment ul li {
+      font-size: 0.26rem;
+      line-height: 0.55rem;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      .m-recomment ul li a {
+        font-size: 0.26rem;
+        line-height: 0.55rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        .m-recomment ul li a:hover {
+          color: #FF712B; }

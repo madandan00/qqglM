@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>发布菜谱</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<script type="text/javascript" src="js/public.js"></script>
+		<link rel="stylesheet" href="css/m-public.css" />
+		<link rel="stylesheet" href="css/border1.css" />
+		<link rel="stylesheet" href="css/m_issue_menu.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_404971_7issocsf87ojemi.css" />
+	</head>
+
+	<body>
+		<div class="m-main">
+			<div class="menue-tit m-content border1">
+				<i>取消</i><span>发菜谱</span>
+			</div>
+			<!--主图-->
+			<div class="first-pic">
+				<div class="big-pic-box">
+					<i class="iconfont icon-guanbi cancel"></i>
+					<div class="pic">
+						<div class="pic-mark"></div>
+						<input type="file" class="picture m_pic" />
+						<img src="" />
+						<p><i class="iconfont icon-jia1"></i>上传封面</p>
+					</div>
+				</div>
+			</div>
+			<!--标题-->
+			<div class="box">
+				<div class="border1">
+					<span>添加菜谱名</span>
+					<input type="text" placeholder="(必填)" />
+				</div>
+			</div>
+			<!--描述-->
+			<div class="box1">
+				<div>
+					<p><span>这道菜的叙述</span></p>
+					<textarea name="" rows="" cols="" placeholder="(不少于10字)"></textarea>
+				</div>
+			</div>
+			<!--主料-->
+			<div class="main-ingredient ingredient-box">
+				<p class="m-menu-tit border1">主料&nbsp;:&nbsp;</p>
+				<div class="m-ingredient-box">
+
+					<table border="0" cellspacing="0" cellpadding="0" class="ingredient">
+						<thead>
+							<tr>
+								<th>食材：如鸡蛋</th>
+								<th>用量：如3个</th>
+								<th class="op"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="text" /></td>
+								<td><input type="text" /></td>
+								<td class="op"><i class="iconfont icon-guanbi"></i></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p class="add-in-box">
+					<span class="add-in">增加主料</span>
+				</p>
+			</div>
+			<!--辅料-->
+			<div class="main-ingredient ingredient-box">
+				<p class="m-menu-tit border1" style="margin-top: 0.7rem;">辅料&nbsp;:&nbsp;</p>
+				<div class="m-ingredient-box">
+
+					<table border="0" cellspacing="0" cellpadding="0" class="ingredient">
+						<thead>
+							<tr>
+								<th>食材：如鸡蛋</th>
+								<th>用量：如3个</th>
+								<th class="op"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="text" /></td>
+								<td><input type="text" /></td>
+								<td class="op"><i class="iconfont icon-guanbi"></i></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p class="add-in-box">
+					<span class="add-in">增加辅料</span>
+				</p>
+			</div>
+			<!--步骤-->
+			<div class="m-menu-step ">
+				<div class="border1" style="padding-bottom: 0.4rem;width: 100%;">
+					<p class="m-menu-tit">菜谱步骤&nbsp;:&nbsp;</p>
+					<div class="m-step-box ">
+						<div class="m-step ">
+							<i class="iconfont icon-guanbi cancel"></i>
+							<p class="step-tit">第<span>1</span>步</p>
+							<div class="step-box clearfix">
+								<div class="step-left">
+									<div class="big-pic-box">
+										<div class="pic">
+											<div class="pic-mark"></div>
+											<input type="file" class="picture m_pic" />
+											<img src="" />
+											<p><i class="iconfont icon-jiahao"></i>上传步骤图</p>
+										</div>
+									</div>
+
+								</div>
+								<div class="step-right">
+									<p><span>步骤描述</span></p>
+									<textarea name="" rows="" cols="" placeholder="(添加步骤描述)"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<p class="add-in-box"><span class="add-in">添加步骤</span></p>
+				</div>
+			</div>
+			<!--成品图-->
+			<div class="first-pic">
+				<p class="m-menu-tit">成品图&nbsp;:&nbsp;</p>
+				<div class="big-pic-box" style="margin-top: 0.1rem;">
+					<i class="iconfont icon-guanbi cancel"></i>
+					<div class="pic">
+						<div class="pic-mark"></div>
+						<input type="file" class="picture m_pic" />
+						<img src="" />
+						<p><i class="iconfont icon-jia1"></i>上传封面</p>
+					</div>
+				</div>
+			</div>
+			<div class="tj">
+				<button>发布菜谱</button>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/m_issue.js"></script>
+	<script>
+		var setTextareaMH = function(max_height) {
+			$('textarea').each(function() {
+				this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+				if(max_height != 0) {
+					this.setAttribute('style', 'max-height:' + max_height + 'px');
+				}
+			}).on('paste cut keydown input', function() {
+				this.style.height = 'auto';
+				this.style.height = (this.scrollHeight) + 'px';
+			});
+		}
+		$(document).ready(function() {
+			setTextareaMH()
+		})
+	</script>
+
+</html>

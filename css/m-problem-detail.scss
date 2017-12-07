@@ -1,0 +1,76 @@
+.m-main {
+    font-size: 12px;
+}
+.top-tit {
+    text-align: center;
+    font-size: 12px;
+    height: 1rem;
+    position: relative;
+    background: #fff;
+    i {
+        font-size: 0.38rem;
+        color: #333;
+        line-height: 1rem;
+        position: absolute;
+        left: 0.32rem;
+        top: 0;
+    }
+    span {
+        font-size: 0.36rem;
+        line-height: 1rem;
+    }
+}
+.article {
+    padding: 0.4rem 0.46rem;
+    background: #fff;
+    .article-tit {
+        font-size: 0.34rem;
+        color: #333;
+        line-height: 0.5rem;
+        margin-bottom: 0.4rem;
+    }
+    .article-content {
+        font-size: 0.3rem;
+        color: #666;
+        line-height: 0.48rem;
+    }
+}
+.m-recomment {
+    background: #fff;
+    margin-top: 0.1rem;
+    padding: 0.5rem 0.32rem 0;
+    .recomment-tit {
+        margin-bottom: 0.15rem;
+        i {
+            color: #ff712b;
+        }
+        span {
+            color: #333;
+            font-size: 0.32rem;
+            line-height: 0.4rem;
+        }
+    }
+    ul {
+        padding: 0 0.16rem;
+        li {
+            font-size: 0.26rem;
+            line-height: 0.55rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            a {
+                font-size: 0.26rem;
+                line-height: 0.55rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                &:hover{
+                    color: #FF712B;
+                }
+//              &:visited {
+//                  color: #FF712B;
+//              }
+            }
+        }
+    }
+}

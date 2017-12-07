@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>搜索</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/m-public.css" />
+		<link rel="stylesheet" href="css/m_search.css" />
+		<!--<script type="text/javascript" src="js/public.js"></script>-->
+		<link rel="stylesheet" href="css/border1.css" />
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_404971_rgaxcjn66hqto6r.css" />
+	</head>
+
+	<body>
+		<div class="m-main">
+			<div class="m-content" style="overflow: hidden;">
+				<div class="search">
+					<p><i class="iconfont icon-sousuo1"></i><input type="text" placeholder="搜索菜谱、食材" id="search-in"/></p><span id="search">搜索</span>
+				</div>
+
+			</div>
+			<!--热门搜索-->
+			<div class="hot-search">
+				<p class="m-tit m-content"><span>热门搜索</span></p>
+				<ul class="list clearfix">
+					<li>红烧肉1</li>
+					<li>红烧肉2</li>
+					<li>红烧肉3</li>
+					<li>红烧肉4</li>
+					<li>红烧肉5</li>
+					<li>红烧肉6</li>
+				</ul>
+			</div>
+			<!--最近搜索-->
+			<div class="hot-search">
+				<p class="m-tit m-content"><span>最近搜索</span><i>清空</i></p>
+				<ul class="list">
+					<li>红烧肉</li>
+					<li>红烧肉</li>
+					<li>红烧肉</li>
+					<li>红烧肉</li>
+					<li>红烧肉</li>
+					<li>红烧肉</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/zepto.min.js" ></script>
+	<script>
+		$(".list li").on("click",function(){
+			var val=$(this).html();
+			$("#search-in").val(val);
+		})
+	</script>
+</html>
